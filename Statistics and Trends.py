@@ -155,8 +155,7 @@ Checking Statistical overview for the four selected indicators
 across the 7 selected countries.
 """
 # statistical function for urban population
-# Checking describe function for urban population
-print(urban_pop.describe())
+print(urban_pop.describe())  # Checking describe function for urban population
 print('Skewness:', stats.skew(urban_pop))  # skweness for urban population
 print('Kurtosis:', stats.kurtosis(urban_pop))  # Kurtosis for urban population
 
@@ -288,4 +287,3 @@ plt.savefig('scatter_brazil.png')
 
 # Showing the scatter plot
 plt.show()
-
