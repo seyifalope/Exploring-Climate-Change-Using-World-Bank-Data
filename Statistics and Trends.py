@@ -247,4 +247,45 @@ plt.savefig('electric_lineplot.png')
 # Showing the line plot plot
 plt.show()
 
+"""
+Plotting a scatter plot to show relationship for Co2 emmission and Forest Area for China
+"""
+# choosing a style for the plot
+plt.style.use('ggplot')
+
+# plotting the scatter plot
+plt.scatter(forest_allyears['China'], co2_allyears['China'])
+
+# setting the , title, xlabel and ylabel
+plt.title('Relationship between Forest Area and Co2 emmission in China', size='11')
+plt.xlabel('Forest area (% of land area)', fontsize=10, weight='bold')
+plt.ylabel('Co2 Emmision', fontsize=10, weight='bold')
+
+# Saving the plotted scatter plot
+plt.savefig("scatter_china.png")
+
+# Showing the scatter plot
+plt.show()
+
+
+"""
+Plotting a scatter plot to show relationship for Co2 emmission and Forest Area for Brazil
+"""
+# choosing a style for the plot
+plt.style.use('ggplot')
+
+# Plotting the scatter plot
+plt.scatter(forest_allyears['Brazil'], co2_allyears['Brazil'])
+
+# Setting the , title, xlabel and ylabel
+plt.title('Relationship between Forest Area and Co2 emmission in Brazil',
+          fontsize=11, weight='bold')
+plt.xlabel('Forest area (% of land area)', weight='bold')
+plt.ylabel('Co2 Emmision', weight='bold')
+
+# Saving the plotted scatter plot
+plt.savefig('scatter_brazil.png')
+
+# Showing the scatter plot
+plt.show()
 
