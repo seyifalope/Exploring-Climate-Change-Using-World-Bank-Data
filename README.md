@@ -1,3 +1,12 @@
 # Exploring Climate Change: A Multi-Factor Analysis Across Seven Countries Using World Bank Data
-This project aims to investigate climate change using data obtained from the World Bank. Seven countries across different continents were selected, and the relationship between the following factors on climate change were studied: CO2 emissions (kt), urban population, electric power consumption (kWh per capita), and forest land (% of land area).The analysis of the factors contributing to climate change revealed that there are some relationships between these factors in emerging 
-countries such as Brazil, China, and India. Statistical functions such as describe, skewness and kurtosis were applied to get further insights from the data
+This project focuses on investigating climate 
+change using data obtained from world bank. 7 
+countries across various continents were selected 
+and the relationship of the following factors: Co2 
+emission (kt), Urban population, Electric power 
+consumption (kWh per capita) and Forest land (% 
+of land area) on climate change were 
+investigated. The examination of causes behind 
+climate change revealed some relationship 
+between the factors of study for emerging 
+countries such as Brazil, China and India
